@@ -1,0 +1,11 @@
+nombre, valor1, valor2, valor3
+laura, 15,25,47
+tony, 22,54,14
+jose,21,55,87
+tony,21,4,5
+ana,54,26,33
+laura,15,52,3
+laura,20,14,8
+tony,25,1,4
+laura,58,44,25
+tony,14,2,35

@@ -1,0 +1,10 @@
+- Las prácticas deberán estar empaquetadas en un ÚNICO archivo ZIP o RAR
+- Las prácticas NO SE CORREGIRÁN  si no están estar realizadas con los siguientes programas y formatos
+   * Documentos docx de Word 2007 o versión posterior
+   * Libros xlsx de Excel 2007 o versión posterior
+   * Presentaciones pptx de Power Point 2007 o versión posterior
+   * Imágenes png con la última versión de GIMP  
+   * Gráficos svg con la última versión de Inkscape  
+- No hace falta hacer todas las prácticas, la nota se calculará dependiendo del porcentaje de practicas realizadas.
+- Los primeros días después de las vacaciones podréis preguntarme sobre aquellas prácticas con las que os habréis encontrado problemas.
+- Este ejercicio es VOLUNTARIO, pero contará en la nota final del 2º trimestre como una práctica más (Tened en cuenta que algún alumno ha suspendido el 1er trimestre por no tener la nota practica suficiente.

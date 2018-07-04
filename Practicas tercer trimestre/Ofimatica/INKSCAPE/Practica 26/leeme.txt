@@ -1,0 +1,4 @@
+el logotipo de nvidia en el ojo debe tener la mitad transparente como bien te habras percatado,
+para alcanzar ese objetivo hay que agrupar la zona verde y el ojo con la tecla control y pulsar a la vez ^.
+esto si lo hago con otra forma si me funciona pero si lo hago con el ojo y lo verde no, desconozco el porque.
+solo queria informarte de que si se hacerlo pero no me sale

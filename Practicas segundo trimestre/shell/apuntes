@@ -1,0 +1,85 @@
+ls lista desde donde estes las carpetas que haya
+
+si ponemos el inicio de un comando y tabulamos dos veces nos pone los posibles que hay
+
+con la q quitas la lista de comandos que sale tabulando
+
+DIRECCIONES
+
+cd seguido de donde quiero ir, eso es para movernos
+en directorios nos podemos mover por rutas absolutas o relativas, las absolutas son para movernos desde el directorio raiz aqui la carpeta raiz es la barra, si hacemos un ls ahi saldran todas las carpetas del sistema. en ls bin estan todos los comando sel sistema aunq esto no sirve de mucho.
+
+Cada usuario que se crea se crea con una carpeta personal, esa carpeta personal va a estar dento de /home, esto es una ruta absoluta. si damos desde home ls saldra cristina. cuando nosotros iniciamos sesion donde nos coloca es en esa carpeta, si queremos trabajar va a tener que ser ahi si queremos algo de mas arriba necesitamos permisos de super usuario.
+
+pwd te dice donde estas sacando la ruta absoluta.
+
+para volver al direcctorio anterior es cd .. y para mas atras son 2 puntos por cada ascenso ../..
+
+ahora la ruta relativa es acceder a lo que hay dentro de una ruta sin tener que escribirta entera
+
+ls --help muestra una pequeña ayuda pero en español, eso es una ayuda pequña. el man ls muestra toda la ayuda completa, si quisiera la ayuda de otro comando pues pongo otra cosa en vez de ls.
+
+ls-l lista el contenido de la carpeta en la que esta pero con todos los datos
+
+En -rwxrw-r-- es la tupla de los permisos para un determinado fichero. LA tupla se divide en bloques la primera linea identifica el fichero, si es - es ordinario, luego tienes 3 grupos de 3 el primero dice los permisos que tiene el propietario, r de lectura, w de escritura y x de ejecucion, este primer trio del usuario. El segundo grupo es para que grupo pertenece (los usuarios pueden estar en varios grupos) y el tercer grupo para el resto de usuarios.
+
+CREAR fichero
+
+cat >
+chmod u-rw es para quitar todos los permisos al usuario
+chmod u-rwx,g-r es para quitarle tambien los permisos al grupo
+chomod u+rwx,g+r,o+wx es para dar todos los permisos a la vez
+
+delante de los comandos anteriores hay que poner el archivo con su extension.
+
+ls- lAa muestra absolutamente todo.
+
+para borrar un fichero es rm nombre del fichero.
+
+
+para mostrar la fecha y la hora date.
+
+whoami te dice quien eres
+
+cal muestra el calendario del mes actual, si pones cal 1992 te sale el calendario de 1992, cal 07 1992 muestra el calendario de ese mes.
+
+ls --help muestra las ayuda del comando ls.
+
+si le ddamos a shift mas los ppag sube y baja
+
+
+ESTRUCUTUTA 
+
+para crear una carpeta ponemos mkdir y el  nombre.
+
+el mkdir -p es para crear mas de un directorio a la vez por ejemplo mkdir -p alumnos/dates/personal creara esas tres carpertas a la vez una dentro de otra.
+
+EL rm * te borra todo el contenido, es decir los ficheros
+
+EL mr -ri borra directorio personales.
+
+mkdir personal interes crearia esas dos carpetas al mism o nivel.
+
+mkdir -p ../pruebas/notas seguridad borrar para crear carpetas en el salto anterior al directorio en el que te encuentras.
+
+sudo apt-ger install tree para mostrarte el arbol. tree para que muestre todo dentro de un directorio
+
+rm -r para borrar
+
+para mostrar todo en orden alfabetico ls-l
+
+cat para habrir ficheros poniendo una ruta absoluta , cat > para crear fichereso luego debes poner la ruta y el fichero.
+
+el cp copia los ficheros que tu le pongas, la ultima se interpreta como destino.
+
+mv es para mover funciona como el cp, pones el fichero que quieres mover y el destino.
+
+mv tambien sirve para cambiar el nopmbre a un fichero para ello selecciono el fichero en cuestion y luego pongo otra vez la ruta pero con el nuevo nombre que quiero que tenga.
+
+Para crear un enlace simbolico ponemos ln -s del archivo que queramos en la primera ruta en la segunda el destino que queramos.
+
+Para crear un enlace duro  pongo ln -P 
+
+grep para bbuscar dentro de un fichero una letra p palabra. Por ejemplo greep Cr* alumnos/datos/nombre23 busca todo lo que empieze por Cr dentro de nombre23.
+
+gredit crea un fichero
